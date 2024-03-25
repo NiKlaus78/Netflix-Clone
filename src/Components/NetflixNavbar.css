@@ -1,0 +1,25 @@
+
+.custom-navbar{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 16px;
+    position: fixed;
+    width: 100%; /* Use 100vw instead of 100% */
+    top: 0;
+    /*left: 0; 
+    z-index: 1000; */
+}
+
+.navbar-item{
+    display: flex;
+    gap: 20px;
+}
+
+.left-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
